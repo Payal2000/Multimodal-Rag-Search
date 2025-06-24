@@ -29,7 +29,7 @@ multimodal-rag-search/
 </pre>
 
 
-   ```
+ 
 Run the following scripts step-by-step:
 
 ```
