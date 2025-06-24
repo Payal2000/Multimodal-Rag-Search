@@ -1,6 +1,6 @@
 # Multimodal RAG Search
 
-Multimodal RAG Search is a lightweight Retrieval-Augmented Generation tool that allows users to ask natural language questions over a slide-based PDF (less than 5 pages). It extracts both **text and image context**, making your queries multimodal.
+A lightweight, GPT-powered search tool that lets you ask natural language questions across both text and image content in a PDF slide deck. It extracts page-wise text and slide images, generates GPT-4o captions for each slide, embeds them using OpenAI’s embedding API, and retrieves relevant results using FAISS — all shown through a clean Streamlit interface.
 
 ## Features
 
