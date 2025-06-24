@@ -5,7 +5,7 @@ Multimodal RAG Search is a lightweight Retrieval-Augmented Generation tool that 
 ## 🧠 Features
 
 - Text + Image search across slides  
-- Captions slides using OpenAI Vision  
+- Captions slides using OpenAI gpt 4o 
 - Embeds text and image content using OpenAI  
 - Searches with FAISS  
 - Simple Streamlit UI
@@ -28,15 +28,9 @@ multimodal-rag-search/
 └── README.md  
 </pre>
 
-## 🚀 How to Run
 
-1. Clone this repo  
-2. Place your PDF file as `data/input.pdf` (max 5 pages)  
-3. Create a `.env` file with your OpenAI key:  
    ```
-   OPENAI_API_KEY=your-key-here
-   ```
-4. Run the following scripts step-by-step:
+Run the following scripts step-by-step:
 
 ```
 python3 backend/extract_text.py
