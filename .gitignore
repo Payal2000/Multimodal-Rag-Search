@@ -28,3 +28,7 @@ data/input.pdf
 # Streamlit cache
 .streamlit/
 
+
+# Allow FAISS index and metadata JSON files
+!data/*.index
+!data/*.json
